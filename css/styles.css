@@ -1,3 +1,7 @@
+/* ширина контейнеру 1170 рх * + 30 px/
+
+
+
 /*----body----*/
 
 :root {
@@ -20,6 +24,14 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--third-web-text-color);
     color: var(--main-text-color);
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid tomato;
 }
 
 .visually-hidden {
