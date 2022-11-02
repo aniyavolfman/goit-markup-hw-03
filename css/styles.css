@@ -116,7 +116,6 @@ body {
 .section-first {
     background-color: var(--background-dark);
     text-align: center;
-    margin-bottom: 94px;
 }
 
 .hero-title {
@@ -174,9 +173,6 @@ body {
     padding-left: 25px; 
 }
 
-.section-second, .section-third {
-    margin-bottom: 94px;
-}
 
 .title-section {
     font-weight: 700;
@@ -207,11 +203,6 @@ body {
     background-color: var(--background-section-fourth);
 }
 
-.section-fourth > .container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .card {
     background-color: var(--third-web-text-color);
 }
@@ -234,9 +225,9 @@ body {
 }
 
 
-.portfolio {
-    margin-top: 94px;
-    margin-bottom: 94px;
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .subtitle-portfolio {
