@@ -66,6 +66,12 @@ body {
     background-color: var(--third-web-text-color);
 }
 
+.top-flex {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
 .web-studio-header {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -78,6 +84,23 @@ body {
 .web-color {
     color: var(--secondary-web-text-color);
 }
+
+.site-nav {
+    display: flex;
+    margin-left: 93px;
+    
+}
+
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 
 .site-nav .item .top-link {
     color: var(--main-text-color);
@@ -96,6 +119,18 @@ body {
 
 .site-nav .item .top-link:hover, .site-nav .item .top-link:focus {
     color: var(--secondary-web-text-color);
+}
+
+
+.auth-nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.auth-nav .item + .item {
+    margin-left: 50px;
 }
 
 .telephone-mail {
