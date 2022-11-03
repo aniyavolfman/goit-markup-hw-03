@@ -15,6 +15,7 @@
     --button-rgba-third: rgba(0, 0, 0, 0.08);
     --button-rgba-fourth:rgba(0, 0, 0, 0.12);
     --button-active: #188CE8;
+    --header-border: #ECECEC;
     --border: #EEEEEE;
 }
 
@@ -61,6 +62,7 @@ body {
 
 .top {
     background-color: var(--third-web-text-color);
+    border-bottom: 1px solid var(--header-border);
 }
 
 .top-flex {
