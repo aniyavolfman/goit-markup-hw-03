@@ -15,6 +15,7 @@
     --button-rgba-third: rgba(0, 0, 0, 0.08);
     --button-rgba-fourth:rgba(0, 0, 0, 0.12);
     --button-active: #188CE8;
+    --border: #EEEEEE;
 }
 
 body {
@@ -28,7 +29,6 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid tomato;
 }
 
 .visually-hidden {
@@ -204,13 +204,37 @@ body {
     color: var(--contacts);
 }
 
+.list.text {
+    justify-content: space-between;
+}
+
+.text .item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.list.images {
+    justify-content: space-between;
+}
+
+.images .item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.list.team {
+    justify-content: space-between;
+}
+
+.team .item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .caption {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .section-fourth {
@@ -265,7 +289,7 @@ body {
 }
 
 .subtitle-portfolio {
-    margin-top: 20px;
+    padding-top: 20px;
     padding-left: 24px;
     font-weight: 700;
     font-size: 18px;
@@ -316,6 +340,19 @@ body {
 .flex-element:nth-last-child(-n+3) {
     margin-bottom: 0;
 }
+
+.border {
+    border-left: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.pixel {
+    display: block;
+}
+
+
+
 
 /*----footer----*/
 
