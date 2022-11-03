@@ -69,7 +69,6 @@ body {
 .top-flex {
     display: flex;
     align-items: center;
-    margin-left: auto;
 }
 
 .web-studio-header {
@@ -124,9 +123,7 @@ body {
 
 .auth-nav {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    
+    margin-left: auto;    
 }
 
 .auth-nav .item + .item {
