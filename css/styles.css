@@ -83,8 +83,7 @@ body {
 
 .site-nav {
     display: flex;
-    margin-left: 93px;
-    
+    margin-left: 93px;   
 }
 
 .site-nav .item:not(:last-child) {
@@ -101,6 +100,7 @@ body {
 .site-nav .item .top-link {
     color: var(--main-text-color);
 }
+
 .site-nav .item .link.current {
     color: var(--secondary-web-text-color);
 }
@@ -188,25 +188,6 @@ body {
     background: var(--button-active);
 }
 
-.portfolio-btn {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    letter-spacing: 0.03em;
-    background-color: var(--background-section-fourth);
-    padding: 6px 22px;
-}
-
-.portfolio-btn:hover, .portfolio-btn:focus {   
-    color: var(--third-web-text-color);
-    background-color: var(--secondary-web-text-color);
-    box-shadow: 0px 3px 1px var(--button-rgba-second), 0px 1px 2px var(--button-rgba-third), 0px 2px 2px var(--background-section-fourth);
-    padding-right: 25px;
-    padding-left: 25px; 
-}
-
-
 .title-section {
     font-weight: 700;
     font-size: 14px;
@@ -265,7 +246,27 @@ body {
 
 /* portfolio */
 
+.portfolio-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    background-color: var(--background-section-fourth);
+    padding: 6px 22px;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--third-web-text-color);
+    background-color: var(--secondary-web-text-color);
+    box-shadow: 0px 3px 1px var(--button-rgba-second), 0px 1px 2px var(--button-rgba-third), 0px 2px 2px var(--background-section-fourth);
+
+}
+
 .subtitle-portfolio {
+    margin-top: 20px;
+    padding-left: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2; 
@@ -274,11 +275,28 @@ body {
 
 
 .text-portfolio {
+    margin-top: 4px;
+    padding-bottom: 20px;
+    padding-left: 24px;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--contacts);
 }
+
+.portfolio-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-nav .item:not(:last-child) {
+    margin-right: 8px;
+}
+.portfolio-nav .portfolio-btn {
+    display: block;
+    margin-bottom: 34px;
+}
+
 
 .flex-portfolio {
     display: flex;
@@ -306,8 +324,7 @@ body {
 }
 
 .bottom .container {
-    padding-top: 60px;
-    
+    padding-top: 60px;  
 }
 
 .contacts-info {
@@ -342,9 +359,11 @@ body {
     letter-spacing: 0.03em;
     color: var(--background-rgba);
 }
+
 .contacts:hover, .contacts:focus {
     color: var(--secondary-web-text-color);
 }
+
 .location:hover, .location:focus {
     color: var(--secondary-web-text-color);
 }
