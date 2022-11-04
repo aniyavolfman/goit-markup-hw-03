@@ -147,6 +147,8 @@ body {
 .section-first {
     background-color: var(--background-dark);
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .flex {
@@ -247,6 +249,11 @@ body {
     background-color: var(--third-web-text-color);
 }
 
+.team-card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .subtitle {
     font-weight: 500;
     font-size: 16px;
@@ -270,6 +277,10 @@ body {
     padding-bottom: 94px;
 }
 
+.section.no-padding {
+    padding-bottom: 0;
+}
+
 /* portfolio */
 
 .portfolio-btn {
@@ -291,8 +302,7 @@ body {
 }
 
 .subtitle-portfolio {
-    padding-top: 20px;
-    padding-left: 24px;
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 2; 
@@ -302,8 +312,6 @@ body {
 
 .text-portfolio {
     margin-top: 4px;
-    padding-bottom: 20px;
-    padding-left: 24px;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -313,6 +321,7 @@ body {
 .portfolio-nav {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .portfolio-nav .item:not(:last-child) {
@@ -320,7 +329,6 @@ body {
 }
 .portfolio-nav .portfolio-btn {
     display: block;
-    margin-bottom: 34px;
 }
 
 
@@ -344,6 +352,10 @@ body {
 }
 
 .border {
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    padding-right: 24px;     
     border-left: 1px solid var(--border);
     border-right: 1px solid var(--border);
     border-bottom: 1px solid var(--border);
@@ -354,22 +366,18 @@ body {
 }
 
 
-
-
 /*----footer----*/
 
 .bottom {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--background-dark);
 }
 
-.bottom .container {
-    padding-top: 60px;  
-}
 
 .contacts-info {
     font-style: normal;
     margin-top: 20px;
-    padding-bottom: 56px;
 }
 
 .web-studio-footer {  
